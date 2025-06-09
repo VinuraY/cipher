@@ -29,3 +29,26 @@ Install dependencies using:
 
 ```bash
 pip install pycryptodome websockets
+
+---
+## Usage
+
+# 1. Start the proxy server
+```bash
+python proxy.py
+
+# 2. Start the listener
+```bash
+python listener.py
+
+# 3. Start the victim
+```bash
+python victim.py
+
+---
+## Important Notes
+
+-This tool is for authorized and educational use only.
+-Use responsibly and ensure you have permission to access any target machines.
+-Tested on Linux environments.
+
