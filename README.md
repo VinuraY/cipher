@@ -51,7 +51,7 @@ python victim.py
 ---
 ## Important Notes
 
--This tool is for authorized and educational use only.
--Use responsibly and ensure you have permission to access any target machines.
--Tested on Linux environments.
+- This tool is for authorized and educational use only.
+- Use responsibly and ensure you have permission to access any target machines.
+- Tested on Linux environments.
 
