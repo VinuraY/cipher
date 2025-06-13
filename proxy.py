@@ -3,7 +3,7 @@ import asyncio
 
 
 # Handle victim side connection.
-async def victim_handle(websocket, path):
+async def victim_handle(websocket):
     global victim
     victim = websocket
 
@@ -40,7 +40,7 @@ async def listener_handle():
         try:
             while True:
 
-                data = await read.read(10000000000)
+                data = await reader.read(10000000000)
 
                 if not data:
                     break
