@@ -35,7 +35,7 @@ async def listener_handle():
         reader = read
         writer = write
         addr = writer.get_extra_info('peername')
-        print(f'[+] Listner {addr} connected')
+        print(f'[+] Listener {addr} connected')
 
         try:
             while True:
@@ -47,7 +47,7 @@ async def listener_handle():
 
                 await victim.send(data)
         except:
-            print('[+] Listner disconnected!')
+            print('[+] Listener disconnected!')
 
     server = await asyncio.start_server(data_transfer, '0.0.0.0', 5555)
 
