@@ -25,17 +25,6 @@ def decrypt(data, aes_key):
     return cipher.decrypt_and_verify(cipher_text, tag).decode()
 
 
-# For xor obfuscation for secure public key and AES key.
-def xor_sec():
-    xor_key = 16
-
-    def encrypt():
-        pass
-
-    def decrypt():
-        pass
-
-
 # Victim handler.
 async def connector():
 
