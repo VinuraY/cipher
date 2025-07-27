@@ -36,7 +36,9 @@ Communication is secured using strong RSA (2048-bit) and AES-GCM (128-bit) encry
 
 - Python 3.8 or higher  
 - `pycryptodome` library  
-- `websockets` library  
+- `websockets` library
+- `psutil` library
+- `platform` library 
 - `asyncio` (built-in with Python)  
 
 Install dependencies via pip:
